@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traditional Indian Clothes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: gold;
+            color:black;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .hero {
+            background-image: url("hero.jpg"); 
+            background-size: cover;
+            color:rgb(8, 244, 83);
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.5em;
+        }
+        .btn-primary {
+            background-color: rgb(117, 244, 157);
+            color: black;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .featured, .testimonials, .newsletter {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .featured h2, .testimonials h2, .newsletter h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .collections, .testimonials-content {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .collection-item, .testimonial-item {
+            background: rgb(243, 102, 130);
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            width: 200px;
+            box-shadow: 0 2px 5px rgb(62, 236, 35);
+        }
+        .newsletter input[type="email"] {
+            padding: 10px;
+            width: 200px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .newsletter button {
+            background-color: #0d0d0c;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #282c34;
+            color: white;
+            text-align: center;
+            padding: 10px 20px;
+        }
+        .social-icons a {
+            color: rgb(98, 234, 20);
+            margin: 0 10px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Traditional Indian Clothes</h1>
+</header>
+
+<div class="hero">
+    <h1>Embrace Elegance with Traditional Indian Attire</h1>
+    <p>Discover Timeless Beauty in Every Stitch</p>
+    <a href="#shop" class="btn-primary">Shop Now</a>
+</div>
+
+<div class="featured">
+    <h2>Our Exclusive Collections</h2>
+    <div class="collections">
+        <div class="collection-item">
+            <h3>Sarees</h3>
+            <a href="#sarees" class="btn-primary">Shop Now</a>
+        </div>
+        <div class="collection-item">
+            <h3>Lehengas</h3>
+            <a href="#lehengas" class="btn-primary">Shop Now</a>
+        </div>
+        <div class="collection-item">
+            <h3>Kurtas</h3>
+            <a href="#kurtas" class="btn-primary">Shop Now</a>
+        </div>
+        <div class="collection-item">
+            <h3>Sherwanis</h3>
+            <a href="#sherwanis" class="btn-primary">Shop Now</a>
+        </div>
+    </div>
+</div>
+
+<div class="testimonials">
+    <h2>What Our Customers Say</h2>
+    <div class="testimonials-content">
+        <div class="testimonial-item">
+            <p><b>"Absolutely stunning attire. The quality is exceptional!"</b></p>
+            <p><b>- Priya S.</p></b>
+        </div>
+        <div class="testimonial-item">
+            <p><b>"Great service and beautiful designs. Highly recommend!"</b></p>
+            <p><b>- Rajesh M.</b></p>
+        </div>
+    </div>
+</div>
+
+<div class="newsletter">
+    <h2>Stay Updated</h2>
+    <p>Sign up for our newsletter to receive exclusive offers and the latest updates.</p>
+    <form action="#">
+        <input type="email" placeholder="Enter your email">
+        <button type="submit">Subscribe</button>
+    </form>
+</div>
+
+<footer>
+    <p>© 2024 Traditional Indian Clothes. All Rights Reserved.</p>
+    <div class="social-icons">
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">Twitter</a>
+    </div>
+</footer>
+
+</body>
+</html>
